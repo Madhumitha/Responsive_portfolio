@@ -1,0 +1,60 @@
+html {
+    background-image: url('../images/criss-cross.png');
+}
+
+body {
+    margin-top: 70px;
+}
+.navbar{
+    background: #ffffff;
+    border-style: solid;
+    border-color: #cccccc;
+
+    border-width: 2px;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-top-style: hidden;
+
+    top:0;
+    
+}
+ .navbar-brand {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-top:-10px;
+    margin-bottom: -10px;
+}
+
+/* Content */
+
+.row {
+    background-color: #ffffff;
+    width: 920px;
+}
+
+img{
+    width:250px;
+    height:250px;
+}
+
+.container .row #first #last {
+    display: none;
+}
+
+/* Media Queries */
+@media screen and (maxwidth : 768px) {
+
+}
+
+@media screen and (maxwidth : 640px) {
+        
+
+            .container .collapse {
+                display: block;
+            }
+
+}
+
